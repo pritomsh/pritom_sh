@@ -1,0 +1,107 @@
+/* second header start */
+.second-header {
+  background-image: url("../images/01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.second-header .cover {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 150px 0 45px;
+  align-items: center;
+  min-height: 25vh;
+  display: flex;
+}
+.second-header .cover h1 {
+  font-size: 52px;
+  margin: 25px 0;
+  color: #fff;
+}
+.second-header .cover ul {
+  margin: 0;
+}
+.second-header .cover ul li {
+  float: left;
+  color: #fff;
+}
+.second-header .cover ul li a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #fff;
+  position: relative;
+  transition: all 0.2s;
+}
+.second-header .cover ul li a::after {
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 15px;
+  transform: rotate(15deg);
+  background: #fff;
+}
+.second-header .cover ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* second header end */
+
+
+
+/* owner section start */
+.owner_section {
+    padding: 50px 0 40px;
+    background: #FFF;
+    min-height: 510px;
+}
+.owner_area {
+	display: block;
+	margin: 35px 0;
+	width: 100%;
+}
+.owner-div {
+	display: inline-block;
+	margin: 0 20px 15px 0;
+	width: 275px;
+	float: left;
+}
+.owner_section .owner-img {
+    position: relative;
+    padding: 6%;
+    z-index: 2;
+}
+.owner_section .owner-img::before {
+    display: inline-block;
+    background: #EDEDED;
+    position: absolute;
+    content: "";
+    height: 88%;
+    width: 88%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.owner_section .owner-img::after {
+    display: inline-block;
+    position: absolute;
+    background: #EDEDED;
+    content: "";
+    width: 88%;
+    height: 88%;
+    bottom: 0;
+    z-index: -1;
+    right: 0;
+}
+.owner_section .owner-img img {
+    object-fit: cover;
+    width: 100%;
+}
+.owner_section .owner-content h5 {
+    margin: 15px 0 3px;
+    font-size: 19px;
+}
+.owner_section .owner-content p {margin: 0;}
+/* owner section end */
