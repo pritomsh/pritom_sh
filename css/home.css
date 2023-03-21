@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(187, 151, 151);
     overflow: hidden
 }
 
@@ -11,7 +11,7 @@
     padding: 10px 0 10px;
     align-items: center;
     position: relative;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex
 }
 
@@ -73,7 +73,7 @@
 }
 
 .title_area {
-    margin-top: 6px
+    margin-top: 0px
 }
 
 .title_area h2 {
@@ -86,7 +86,7 @@
 
 .title_area p {
     text-decoration: underline;
-    margin-bottom: 60px;
+    margin-bottom: 5px;
     line-height: 21px;
     font-weight: 500;
     font-size: 14px;
@@ -95,8 +95,8 @@
 
 .about_section {
     position: relative;
-    background: rgb(255, 255, 255);
-    padding: 75px 0
+    background: rgb(187, 151, 151);
+    padding:50px 0
 }
 
 .about_section #single_about {
